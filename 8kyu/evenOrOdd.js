@@ -9,3 +9,5 @@ function isEven(int) {
     console.log("Odd");
   }
 };
+
+isEven(8);
