@@ -17,3 +17,8 @@ isEven(9);
 isEven("hi");
 isEven(-8);
 isEven(-7);
+
+// BEST PRACTICE
+function even_or_odd(number) {
+  return number % 2 ? "Odd" : "Even"
+}
