@@ -5,9 +5,15 @@
 function isEven(int) {
   if (int % 2 == 0) {
     console.log("Even");
-  } else {
+  } else if (int % 2 == 1 || int % 2 == -1) {
     console.log("Odd");
+  } else {
+    console.log("Please enter a valid number.")
   }
 };
 
 isEven(8);
+isEven(9);
+isEven("hi");
+isEven(-8);
+isEven(-7);
